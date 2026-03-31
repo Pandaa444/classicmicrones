@@ -8,10 +8,10 @@ import productImg from "@/assets/product-powder.jpg";
 import warehouseImg from "@/assets/warehouse.jpg";
 
 const stats = [
-  { value: "15+", label: "Years Experience" },
+  { value: "5+", label: "Years Experience" },
   { value: "98%", label: "Calcium Purity" },
-  { value: "500+", label: "Clients Served" },
-  { value: "10K+", label: "Tons Monthly" },
+  { value: "50+", label: "Companies Served" },
+  { value: "Own Mines", label: "Biggest Mine Owners" },
 ];
 
 const industries = [
