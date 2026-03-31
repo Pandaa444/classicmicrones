@@ -19,9 +19,9 @@ const reasons = [
   },
   {
     icon: Truck,
-    title: "Reliable Supply Chain",
-    desc: "With 10,000+ MT monthly capacity and strategically located warehouses, we ensure on-time delivery every time.",
-    points: ["Pan-India delivery network", "Dedicated logistics team", "Real-time order tracking"],
+    title: "Own Mines & Reliable Supply",
+    desc: "As one of the biggest mine owners in Makrana, we control the entire supply chain from mine to delivery.",
+    points: ["Own mines in Makrana region", "Pan-India delivery network", "Complete supply chain control"],
   },
   {
     icon: Factory,

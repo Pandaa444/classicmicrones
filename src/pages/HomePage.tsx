@@ -243,7 +243,7 @@ const HomePage = () => (
               Reliable Supply, On-Time Delivery
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              With a monthly production capacity of 10,000+ tons and strategically located warehouses, we ensure timely delivery of bulk orders anywhere in India. Our logistics network is designed for efficiency and reliability.
+              As one of the biggest mine owners in the Makrana region, we have complete control over raw material sourcing. Combined with strategically located warehouses, we ensure timely delivery of bulk orders anywhere in India.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/contact">
