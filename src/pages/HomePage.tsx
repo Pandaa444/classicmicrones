@@ -53,7 +53,7 @@ const HomePage = () => (
             transition={{ delay: 0.2 }}
             className="inline-flex items-center gap-2 bg-accent/20 text-accent px-4 py-1.5 rounded-full text-sm font-medium mb-6"
           >
-            <Star className="w-4 h-4" /> Trusted by 500+ manufacturers
+            <Star className="w-4 h-4" /> Trusted by 50+ companies · Own Mine Owners
           </motion.span>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
