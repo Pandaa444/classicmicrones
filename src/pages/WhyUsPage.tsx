@@ -96,9 +96,9 @@ const WhyUsPage = () => (
         <SectionHeading label="By The Numbers" title="Our Track Record Speaks" />
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { value: "15+", label: "Years in Business" },
-            { value: "500+", label: "Satisfied Clients" },
-            { value: "10K+", label: "Tons / Month" },
+            { value: "5+", label: "Years in Business" },
+            { value: "50+", label: "Companies Served" },
+            { value: "Own Mines", label: "Biggest Mine Owners" },
             { value: "98%", label: "Max Purity" },
           ].map((s, i) => (
             <motion.div
