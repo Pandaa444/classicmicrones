@@ -81,9 +81,11 @@ const ProductsPage = () => (
               </li>
             ))}
           </ul>
-          <Button variant="outline" className="border-accent text-accent hover:bg-accent/5 font-semibold">
-            <Download className="mr-2 w-4 h-4" /> Download Brochure (PDF)
-          </Button>
+          <a href="/tds-brochure.pdf" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" className="border-accent text-accent hover:bg-accent/5 font-semibold">
+              <Download className="mr-2 w-4 h-4" /> Download TDS / Brochure (PDF)
+            </Button>
+          </a>
         </motion.div>
       </div>
     </section>

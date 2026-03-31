@@ -124,7 +124,8 @@ const ContactPage = () => {
                 <Phone className="w-6 h-6 text-accent mt-1 shrink-0" />
                 <div>
                   <div className="font-heading font-semibold text-primary text-sm">Phone</div>
-                  <a href="tel:+919876543210" className="text-muted-foreground text-sm hover:text-accent transition-colors">+91 98765 43210</a>
+                  <a href="tel:+918529067010" className="text-muted-foreground text-sm hover:text-accent transition-colors block">+91 85290 67010</a>
+                  <a href="tel:+919462567010" className="text-muted-foreground text-sm hover:text-accent transition-colors block">+91 94625 67010</a>
                 </div>
               </div>
 
@@ -132,7 +133,15 @@ const ContactPage = () => {
                 <Mail className="w-6 h-6 text-accent mt-1 shrink-0" />
                 <div>
                   <div className="font-heading font-semibold text-primary text-sm">Email</div>
-                  <a href="mailto:info@classicmicrons.com" className="text-muted-foreground text-sm hover:text-accent transition-colors">info@classicmicrons.com</a>
+                  <a href="mailto:cmminchem@gmail.com" className="text-muted-foreground text-sm hover:text-accent transition-colors">cmminchem@gmail.com</a>
+                </div>
+              </div>
+
+              <div className="bg-surface rounded-lg p-5 flex items-start gap-4">
+                <span className="w-6 h-6 text-accent mt-1 shrink-0 font-heading font-bold text-sm flex items-center justify-center">DK</span>
+                <div>
+                  <div className="font-heading font-semibold text-primary text-sm">Contact Person</div>
+                  <p className="text-muted-foreground text-sm">Divesh Kuri</p>
                 </div>
               </div>
 
@@ -140,12 +149,12 @@ const ContactPage = () => {
                 <MapPin className="w-6 h-6 text-accent mt-1 shrink-0" />
                 <div>
                   <div className="font-heading font-semibold text-primary text-sm">Address</div>
-                  <p className="text-muted-foreground text-sm">Industrial Area, Udaipur, Rajasthan, India</p>
+                  <p className="text-muted-foreground text-sm">E-6 RIICO Ind. Area, Bidiyad, Makrana, Rajasthan, India</p>
                 </div>
               </div>
 
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/918529067010"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-accent text-accent-foreground rounded-lg py-4 font-bold hover:bg-teal-dark transition-colors"
@@ -156,7 +165,7 @@ const ContactPage = () => {
 
               {/* Map placeholder */}
               <div className="bg-muted rounded-lg h-48 flex items-center justify-center text-muted-foreground text-sm">
-                <MapPin className="w-5 h-5 mr-2" /> Google Maps — Udaipur, Rajasthan
+                <MapPin className="w-5 h-5 mr-2" /> Google Maps — Makrana, Rajasthan
               </div>
             </motion.div>
           </div>

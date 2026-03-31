@@ -19,9 +19,9 @@ const reasons = [
   },
   {
     icon: Truck,
-    title: "Reliable Supply Chain",
-    desc: "With 10,000+ MT monthly capacity and strategically located warehouses, we ensure on-time delivery every time.",
-    points: ["Pan-India delivery network", "Dedicated logistics team", "Real-time order tracking"],
+    title: "Own Mines & Reliable Supply",
+    desc: "As one of the biggest mine owners in Makrana, we control the entire supply chain from mine to delivery.",
+    points: ["Own mines in Makrana region", "Pan-India delivery network", "Complete supply chain control"],
   },
   {
     icon: Factory,
@@ -96,9 +96,9 @@ const WhyUsPage = () => (
         <SectionHeading label="By The Numbers" title="Our Track Record Speaks" />
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { value: "15+", label: "Years in Business" },
-            { value: "500+", label: "Satisfied Clients" },
-            { value: "10K+", label: "Tons / Month" },
+            { value: "5+", label: "Years in Business" },
+            { value: "50+", label: "Companies Served" },
+            { value: "Own Mines", label: "Biggest Mine Owners" },
             { value: "98%", label: "Max Purity" },
           ].map((s, i) => (
             <motion.div
@@ -121,7 +121,7 @@ const WhyUsPage = () => (
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-heading font-bold text-accent-foreground mb-4">Ready to Experience the Difference?</h2>
         <p className="text-accent-foreground/80 mb-8 max-w-xl mx-auto">
-          Join 500+ manufacturers who trust Classic Microns for their CaCO₃ needs.
+          Join 50+ companies who trust Classic Microns for their CaCO₃ needs.
         </p>
         <Link to="/contact">
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-navy-light font-bold">

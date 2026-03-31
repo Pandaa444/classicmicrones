@@ -8,10 +8,10 @@ import productImg from "@/assets/product-powder.jpg";
 import warehouseImg from "@/assets/warehouse.jpg";
 
 const stats = [
-  { value: "15+", label: "Years Experience" },
+  { value: "5+", label: "Years Experience" },
   { value: "98%", label: "Calcium Purity" },
-  { value: "500+", label: "Clients Served" },
-  { value: "10K+", label: "Tons Monthly" },
+  { value: "50+", label: "Companies Served" },
+  { value: "Own Mines", label: "Biggest Mine Owners" },
 ];
 
 const industries = [
@@ -53,7 +53,7 @@ const HomePage = () => (
             transition={{ delay: 0.2 }}
             className="inline-flex items-center gap-2 bg-accent/20 text-accent px-4 py-1.5 rounded-full text-sm font-medium mb-6"
           >
-            <Star className="w-4 h-4" /> Trusted by 500+ manufacturers
+            <Star className="w-4 h-4" /> Trusted by 50+ companies · Own Mine Owners
           </motion.span>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -243,7 +243,7 @@ const HomePage = () => (
               Reliable Supply, On-Time Delivery
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              With a monthly production capacity of 10,000+ tons and strategically located warehouses, we ensure timely delivery of bulk orders anywhere in India. Our logistics network is designed for efficiency and reliability.
+              As one of the biggest mine owners in the Makrana region, we have complete control over raw material sourcing. Combined with strategically located warehouses, we ensure timely delivery of bulk orders anywhere in India.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/contact">
@@ -251,7 +251,7 @@ const HomePage = () => (
                   Request Bulk Quote
                 </Button>
               </Link>
-              <a href="tel:+919876543210">
+              <a href="tel:+918529067010">
                 <Button variant="outline" className="border-primary text-primary hover:bg-primary/5 font-semibold">
                   <Phone className="mr-2 w-4 h-4" /> Call Now
                 </Button>
@@ -320,7 +320,7 @@ const HomePage = () => (
                 Get a Free Quote
               </Button>
             </Link>
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/918529067010" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="border-accent-foreground/30 text-accent-foreground hover:bg-accent-foreground/10 font-semibold text-base px-8 h-12">
                 WhatsApp Us
               </Button>

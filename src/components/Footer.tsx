@@ -47,15 +47,19 @@ const Footer = () => (
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-2 text-primary-foreground/70">
               <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-accent" />
-              Industrial Area, Rajasthan, India
+              E-6 RIICO Ind. Area, Bidiyad, Makrana, Rajasthan, India
             </li>
             <li className="flex items-center gap-2 text-primary-foreground/70">
               <Phone className="w-4 h-4 shrink-0 text-accent" />
-              <a href="tel:+919876543210" className="hover:text-accent transition-colors">+91 98765 43210</a>
+              <a href="tel:+918529067010" className="hover:text-accent transition-colors">+91 85290 67010</a>
+            </li>
+            <li className="flex items-center gap-2 text-primary-foreground/70">
+              <Phone className="w-4 h-4 shrink-0 text-accent" />
+              <a href="tel:+919462567010" className="hover:text-accent transition-colors">+91 94625 67010</a>
             </li>
             <li className="flex items-center gap-2 text-primary-foreground/70">
               <Mail className="w-4 h-4 shrink-0 text-accent" />
-              <a href="mailto:info@classicmicrons.com" className="hover:text-accent transition-colors">info@classicmicrons.com</a>
+              <a href="mailto:cmminchem@gmail.com" className="hover:text-accent transition-colors">cmminchem@gmail.com</a>
             </li>
           </ul>
         </div>
