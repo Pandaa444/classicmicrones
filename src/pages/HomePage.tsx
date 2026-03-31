@@ -251,7 +251,7 @@ const HomePage = () => (
                   Request Bulk Quote
                 </Button>
               </Link>
-              <a href="tel:+919876543210">
+              <a href="tel:+918529067010">
                 <Button variant="outline" className="border-primary text-primary hover:bg-primary/5 font-semibold">
                   <Phone className="mr-2 w-4 h-4" /> Call Now
                 </Button>
