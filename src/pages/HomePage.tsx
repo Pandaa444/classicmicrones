@@ -320,7 +320,7 @@ const HomePage = () => (
                 Get a Free Quote
               </Button>
             </Link>
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/918529067010" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="border-accent-foreground/30 text-accent-foreground hover:bg-accent-foreground/10 font-semibold text-base px-8 h-12">
                 WhatsApp Us
               </Button>

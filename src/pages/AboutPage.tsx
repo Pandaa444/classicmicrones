@@ -32,13 +32,13 @@ const AboutPage = () => (
           <span className="text-xs font-semibold tracking-widest uppercase text-accent mb-3 block">Our Story</span>
           <h2 className="text-3xl font-heading font-bold text-primary mb-6">A Legacy of Quality Manufacturing</h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Founded over 15 years ago in the mineral-rich heartland of Rajasthan, Classic Microns began with a simple mission: to produce the purest Calcium Carbonate powder for Indian industries.
+            Founded 5 years ago in the mineral-rich heartland of Rajasthan, Classic Microns began with a simple mission: to produce the purest Calcium Carbonate powder for Indian industries. We are one of the biggest mine owners in the Makrana region, giving us direct control over raw material quality.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Today, we are one of the most trusted names in the CaCO₃ industry, with a state-of-the-art manufacturing facility, advanced quality control labs, and a monthly production capacity exceeding 10,000 metric tons.
+            Today, we are one of the most trusted names in the CaCO₃ industry, with our own mines, a state-of-the-art manufacturing facility, and advanced quality control labs — ensuring complete supply chain control from mine to delivery.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            Our commitment to quality has earned us the trust of over 500 manufacturers across paint, paper, plastics, and pharmaceutical industries.
+            Our commitment to quality has earned us the trust of over 50 companies across paint, paper, plastics, and pharmaceutical industries.
           </p>
         </motion.div>
       </div>

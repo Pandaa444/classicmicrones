@@ -121,7 +121,7 @@ const WhyUsPage = () => (
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-heading font-bold text-accent-foreground mb-4">Ready to Experience the Difference?</h2>
         <p className="text-accent-foreground/80 mb-8 max-w-xl mx-auto">
-          Join 500+ manufacturers who trust Classic Microns for their CaCO₃ needs.
+          Join 50+ companies who trust Classic Microns for their CaCO₃ needs.
         </p>
         <Link to="/contact">
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-navy-light font-bold">

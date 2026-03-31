@@ -45,9 +45,9 @@ const Header = () => {
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
-          <a href="tel:+919876543210" className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-accent transition-colors">
+          <a href="tel:+918529067010" className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-accent transition-colors">
             <Phone className="w-4 h-4" />
-            +91 98765 43210
+            +91 85290 67010
           </a>
           <Link to="/contact">
             <Button className="bg-accent text-accent-foreground hover:bg-teal-dark font-semibold">
