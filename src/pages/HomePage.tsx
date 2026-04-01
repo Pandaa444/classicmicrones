@@ -274,6 +274,9 @@ const HomePage = () => (
             { name: "Rajesh Sharma", company: "Excel Paints Pvt Ltd", text: "Classic Micrones has been our trusted supplier for over 5 years. The consistency in quality and timely delivery sets them apart." },
             { name: "Anita Desai", company: "Greenfield Plastics", text: "Their CaCO₃ powder significantly improved our PVC compound quality while reducing our overall production costs." },
             { name: "Vikram Mehta", company: "Meridian Paper Mills", text: "Outstanding whiteness and particle size consistency. Their technical support team is always available to help." },
+            { name: "Kuldeep Singh", company: "K.S. Microfillers", text: "We've been sourcing CaCO₃ from Classic Micrones for years. Their purity levels are unmatched and supply is always on time." },
+            { name: "Manoj Gupta", company: "CMI Industries", text: "Excellent product quality and professional service. Classic Micrones delivers exactly what they promise — every single batch." },
+            { name: "Suresh Patel", company: "Shree Polymer Industries", text: "Best calcium carbonate supplier we've worked with. Great pricing, consistent quality, and very responsive team." },
           ].map((t, i) => (
             <motion.div
               key={t.name}
