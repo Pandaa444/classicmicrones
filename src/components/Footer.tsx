@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="container mx-auto px-4 py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
-          <h3 className="text-xl font-heading font-bold mb-4">Classic Microns</h3>
+          <h3 className="text-xl font-heading font-bold mb-4">Classic Micrones</h3>
           <p className="text-primary-foreground/70 text-sm leading-relaxed">
             Leading manufacturer and supplier of high-purity Calcium Carbonate (CaCO₃) powder for industrial applications across India.
           </p>
