@@ -231,7 +231,7 @@ const HomePage = () => (
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <img src={warehouseImg} alt="Classic Microns warehouse and supply chain" loading="lazy" width={1200} height={800} className="rounded-lg shadow-xl w-full" />
+            <img src={warehouseImg} alt="Classic Micrones warehouse and supply chain" loading="lazy" width={1200} height={800} className="rounded-lg shadow-xl w-full" />
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 30 }}
