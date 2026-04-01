@@ -175,12 +175,11 @@ const ContactPage = () => {
               {/* Certificates */}
               <div className="space-y-3">
                 <h3 className="font-heading font-semibold text-primary text-sm">Our Certificates</h3>
+                <a href="/certificates/iso-certificate.jpg" target="_blank" rel="noopener noreferrer" className="block">
+                  <img src="/certificates/iso-certificate.jpg" alt="ISO Certificate" className="rounded-lg border border-border w-full hover:shadow-md transition-shadow" />
+                </a>
                 <a href="/certificates/trust-certificate.jpg" target="_blank" rel="noopener noreferrer" className="block">
                   <img src="/certificates/trust-certificate.jpg" alt="ExportersIndia Trust Certificate" className="rounded-lg border border-border w-full hover:shadow-md transition-shadow" />
-                </a>
-                <a href="/certificates/iso-certificate.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-surface rounded-lg p-4 hover:bg-muted transition-colors text-sm font-medium text-accent">
-                  <Award className="w-5 h-5 shrink-0" />
-                  View ISO Certificate (PDF)
                 </a>
               </div>
             </motion.div>
