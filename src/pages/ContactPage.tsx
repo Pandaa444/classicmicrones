@@ -163,9 +163,25 @@ const ContactPage = () => {
                 Chat on WhatsApp
               </a>
 
-              {/* Map placeholder */}
-              <div className="bg-muted rounded-lg h-48 flex items-center justify-center text-muted-foreground text-sm">
-                <MapPin className="w-5 h-5 mr-2" /> Google Maps — Makrana, Rajasthan
+              <a
+                href="https://share.google/qOtxM3f0TRWXTGJWI"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-muted rounded-lg h-48 flex items-center justify-center text-muted-foreground text-sm hover:bg-muted/80 transition-colors"
+              >
+                <MapPin className="w-5 h-5 mr-2" /> View on Google Maps — Makrana, Rajasthan
+              </a>
+
+              {/* Certificates */}
+              <div className="space-y-3">
+                <h3 className="font-heading font-semibold text-primary text-sm">Our Certificates</h3>
+                <a href="/certificates/trust-certificate.jpg" target="_blank" rel="noopener noreferrer" className="block">
+                  <img src="/certificates/trust-certificate.jpg" alt="ExportersIndia Trust Certificate" className="rounded-lg border border-border w-full hover:shadow-md transition-shadow" />
+                </a>
+                <a href="/certificates/iso-certificate.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-surface rounded-lg p-4 hover:bg-muted transition-colors text-sm font-medium text-accent">
+                  <Award className="w-5 h-5 shrink-0" />
+                  View ISO Certificate (PDF)
+                </a>
               </div>
             </motion.div>
           </div>
