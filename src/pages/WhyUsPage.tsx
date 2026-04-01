@@ -53,7 +53,7 @@ const WhyUsPage = () => (
             The Classic Micrones Advantage
           </h1>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto">
-            When you choose Classic Microns, you choose a partner committed to your success.
+            When you choose Classic Micrones, you choose a partner committed to your success.
           </p>
         </motion.div>
       </div>
