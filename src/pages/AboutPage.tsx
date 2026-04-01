@@ -102,7 +102,7 @@ const AboutPage = () => (
     {/* CTA */}
     <section className="section-padding bg-accent">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-heading font-bold text-accent-foreground mb-4">Partner with Classic Microns</h2>
+        <h2 className="text-3xl font-heading font-bold text-accent-foreground mb-4">Partner with Classic Micrones</h2>
         <p className="text-accent-foreground/80 mb-8 max-w-xl mx-auto">
           Experience the difference that premium-quality CaCO₃ can make in your manufacturing process.
         </p>

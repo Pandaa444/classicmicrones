@@ -66,7 +66,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-primary-foreground/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-primary-foreground/50">
-        <p>© {new Date().getFullYear()} Classic Microns. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Classic Micrones. All rights reserved.</p>
         <p>Calcium Carbonate Manufacturer & Supplier — India</p>
       </div>
     </div>
