@@ -26,7 +26,7 @@ const AboutPage = () => (
     <section className="section-padding">
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-          <img src={warehouseImg} alt="Classic Microns facility" loading="lazy" width={1200} height={800} className="rounded-lg shadow-xl w-full" />
+          <img src={warehouseImg} alt="Classic Micrones facility" loading="lazy" width={1200} height={800} className="rounded-lg shadow-xl w-full" />
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
           <span className="text-xs font-semibold tracking-widest uppercase text-accent mb-3 block">Our Story</span>
