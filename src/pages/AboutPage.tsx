@@ -16,7 +16,7 @@ const AboutPage = () => (
             Built on Purity, Powered by Trust
           </h1>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto leading-relaxed">
-            Classic Microns is a premier manufacturer of Calcium Carbonate powder, serving industries across India with unmatched quality and reliability.
+            Classic Micrones is a premier manufacturer of Calcium Carbonate powder, serving industries across India with unmatched quality and reliability.
           </p>
         </motion.div>
       </div>
@@ -26,19 +26,29 @@ const AboutPage = () => (
     <section className="section-padding">
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-          <img src={warehouseImg} alt="Classic Microns facility" loading="lazy" width={1200} height={800} className="rounded-lg shadow-xl w-full" />
+          <img src={warehouseImg} alt="Classic Micrones facility" loading="lazy" width={1200} height={800} className="rounded-lg shadow-xl w-full" />
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
           <span className="text-xs font-semibold tracking-widest uppercase text-accent mb-3 block">Our Story</span>
           <h2 className="text-3xl font-heading font-bold text-primary mb-6">A Legacy of Quality Manufacturing</h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Founded 5 years ago in the mineral-rich heartland of Rajasthan, Classic Microns began with a simple mission: to produce the purest Calcium Carbonate powder for Indian industries. We are one of the biggest mine owners in the Makrana region, giving us direct control over raw material quality.
+            Founded 5 years ago in the mineral-rich heartland of Rajasthan, Classic Micrones began with a simple mission: to produce the purest Calcium Carbonate powder for Indian industries. We are one of the biggest mine owners in the Makrana region, giving us direct control over raw material quality.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-4">
             Today, we are one of the most trusted names in the CaCO₃ industry, with our own mines, a state-of-the-art manufacturing facility, and advanced quality control labs — ensuring complete supply chain control from mine to delivery.
           </p>
-          <p className="text-muted-foreground leading-relaxed">
+           <p className="text-muted-foreground leading-relaxed">
             Our commitment to quality has earned us the trust of over 50 companies across paint, paper, plastics, and pharmaceutical industries.
+          </p>
+          {/* Certificates */}
+          <div className="flex flex-wrap gap-4 mt-6">
+            <a href="/certificates/trust-certificate.jpg" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-lg text-sm font-medium hover:bg-accent/20 transition-colors">
+              <Award className="w-4 h-4" /> Trust Certificate
+            </a>
+            <a href="/certificates/iso-certificate.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-lg text-sm font-medium hover:bg-accent/20 transition-colors">
+              <Award className="w-4 h-4" /> ISO Certificate
+            </a>
+          </div>
           </p>
         </motion.div>
       </div>
@@ -102,7 +112,7 @@ const AboutPage = () => (
     {/* CTA */}
     <section className="section-padding bg-accent">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-heading font-bold text-accent-foreground mb-4">Partner with Classic Microns</h2>
+        <h2 className="text-3xl font-heading font-bold text-accent-foreground mb-4">Partner with Classic Micrones</h2>
         <p className="text-accent-foreground/80 mb-8 max-w-xl mx-auto">
           Experience the difference that premium-quality CaCO₃ can make in your manufacturing process.
         </p>

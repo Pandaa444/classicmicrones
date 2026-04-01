@@ -50,10 +50,10 @@ const WhyUsPage = () => (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
           <span className="text-accent text-sm font-semibold tracking-widest uppercase">Why Choose Us</span>
           <h1 className="text-4xl md:text-5xl font-heading font-extrabold mt-3 mb-6">
-            The Classic Microns Advantage
+            The Classic Micrones Advantage
           </h1>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto">
-            When you choose Classic Microns, you choose a partner committed to your success.
+            When you choose Classic Micrones, you choose a partner committed to your success.
           </p>
         </motion.div>
       </div>
@@ -121,7 +121,7 @@ const WhyUsPage = () => (
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-heading font-bold text-accent-foreground mb-4">Ready to Experience the Difference?</h2>
         <p className="text-accent-foreground/80 mb-8 max-w-xl mx-auto">
-          Join 50+ companies who trust Classic Microns for their CaCO₃ needs.
+          Join 50+ companies who trust Classic Micrones for their CaCO₃ needs.
         </p>
         <Link to="/contact">
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-navy-light font-bold">

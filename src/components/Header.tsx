@@ -21,9 +21,9 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 md:h-20 px-4">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Classic Microns" width={40} height={40} className="w-10 h-10" />
+          <img src={logo} alt="Classic Micrones" width={40} height={40} className="w-10 h-10" />
           <div className="flex flex-col leading-tight">
-            <span className="font-heading font-bold text-lg text-primary">Classic Microns</span>
+            <span className="font-heading font-bold text-lg text-primary">Classic Micrones</span>
             <span className="text-[10px] text-muted-foreground tracking-widest uppercase">CaCO₃ Specialists</span>
           </div>
         </Link>

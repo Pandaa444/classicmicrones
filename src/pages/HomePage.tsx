@@ -84,7 +84,7 @@ const HomePage = () => (
               </Button>
             </Link>
             <Link to="/products">
-              <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold text-base px-8 h-12">
+              <Button size="lg" className="bg-accent text-accent-foreground hover:bg-teal-dark font-bold text-base px-8 h-12">
                 View Products
               </Button>
             </Link>
@@ -198,7 +198,7 @@ const HomePage = () => (
     <section className="section-padding bg-primary text-primary-foreground">
       <div className="container mx-auto">
         <SectionHeading
-          label="Why Classic Microns"
+          label="Why Classic Micrones"
           title="Built on Quality, Driven by Trust"
           description="We are committed to delivering the finest calcium carbonate with unmatched consistency."
         />
@@ -231,7 +231,7 @@ const HomePage = () => (
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <img src={warehouseImg} alt="Classic Microns warehouse and supply chain" loading="lazy" width={1200} height={800} className="rounded-lg shadow-xl w-full" />
+            <img src={warehouseImg} alt="Classic Micrones warehouse and supply chain" loading="lazy" width={1200} height={800} className="rounded-lg shadow-xl w-full" />
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 30 }}
@@ -271,7 +271,7 @@ const HomePage = () => (
         />
         <div className="grid md:grid-cols-3 gap-6">
           {[
-            { name: "Rajesh Sharma", company: "Excel Paints Pvt Ltd", text: "Classic Microns has been our trusted supplier for over 5 years. The consistency in quality and timely delivery sets them apart." },
+            { name: "Rajesh Sharma", company: "Excel Paints Pvt Ltd", text: "Classic Micrones has been our trusted supplier for over 5 years. The consistency in quality and timely delivery sets them apart." },
             { name: "Anita Desai", company: "Greenfield Plastics", text: "Their CaCO₃ powder significantly improved our PVC compound quality while reducing our overall production costs." },
             { name: "Vikram Mehta", company: "Meridian Paper Mills", text: "Outstanding whiteness and particle size consistency. Their technical support team is always available to help." },
           ].map((t, i) => (
