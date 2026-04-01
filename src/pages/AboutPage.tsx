@@ -16,7 +16,7 @@ const AboutPage = () => (
             Built on Purity, Powered by Trust
           </h1>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto leading-relaxed">
-            Classic Microns is a premier manufacturer of Calcium Carbonate powder, serving industries across India with unmatched quality and reliability.
+            Classic Micrones is a premier manufacturer of Calcium Carbonate powder, serving industries across India with unmatched quality and reliability.
           </p>
         </motion.div>
       </div>
