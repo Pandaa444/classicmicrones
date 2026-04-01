@@ -37,8 +37,18 @@ const AboutPage = () => (
           <p className="text-muted-foreground leading-relaxed mb-4">
             Today, we are one of the most trusted names in the CaCO₃ industry, with our own mines, a state-of-the-art manufacturing facility, and advanced quality control labs — ensuring complete supply chain control from mine to delivery.
           </p>
-          <p className="text-muted-foreground leading-relaxed">
+           <p className="text-muted-foreground leading-relaxed">
             Our commitment to quality has earned us the trust of over 50 companies across paint, paper, plastics, and pharmaceutical industries.
+          </p>
+          {/* Certificates */}
+          <div className="flex flex-wrap gap-4 mt-6">
+            <a href="/certificates/trust-certificate.jpg" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-lg text-sm font-medium hover:bg-accent/20 transition-colors">
+              <Award className="w-4 h-4" /> Trust Certificate
+            </a>
+            <a href="/certificates/iso-certificate.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-lg text-sm font-medium hover:bg-accent/20 transition-colors">
+              <Award className="w-4 h-4" /> ISO Certificate
+            </a>
+          </div>
           </p>
         </motion.div>
       </div>
