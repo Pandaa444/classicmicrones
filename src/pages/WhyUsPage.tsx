@@ -50,7 +50,7 @@ const WhyUsPage = () => (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
           <span className="text-accent text-sm font-semibold tracking-widest uppercase">Why Choose Us</span>
           <h1 className="text-4xl md:text-5xl font-heading font-extrabold mt-3 mb-6">
-            The Classic Microns Advantage
+            The Classic Micrones Advantage
           </h1>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto">
             When you choose Classic Microns, you choose a partner committed to your success.
