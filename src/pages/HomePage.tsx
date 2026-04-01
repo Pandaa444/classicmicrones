@@ -198,7 +198,7 @@ const HomePage = () => (
     <section className="section-padding bg-primary text-primary-foreground">
       <div className="container mx-auto">
         <SectionHeading
-          label="Why Classic Microns"
+          label="Why Classic Micrones"
           title="Built on Quality, Driven by Trust"
           description="We are committed to delivering the finest calcium carbonate with unmatched consistency."
         />
