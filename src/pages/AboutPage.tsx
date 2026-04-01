@@ -49,7 +49,6 @@ const AboutPage = () => (
               <Award className="w-4 h-4" /> ISO Certificate
             </a>
           </div>
-          </p>
         </motion.div>
       </div>
     </section>
