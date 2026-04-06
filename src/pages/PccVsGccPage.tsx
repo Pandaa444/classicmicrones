@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle, XCircle, Factory, Shield, Truck } from "lucide-react";
+import { ArrowRight, CheckCircle, Factory, Shield, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/SectionHeading";
 import { Helmet } from "react-helmet-async";

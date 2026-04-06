@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { CheckCircle, ArrowRight, Sun, Layers, DollarSign, Recycle, Shield, Factory, Truck, Award } from "lucide-react";
+import { CheckCircle, ArrowRight, Sun, Layers, Shield, Factory, Truck, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/SectionHeading";
 import { Helmet } from "react-helmet-async";
