@@ -32,13 +32,33 @@ const Footer = () => (
         </div>
 
         <div>
-          <h4 className="font-heading font-semibold mb-4 text-accent">Industries</h4>
-          <ul className="space-y-2 text-sm text-primary-foreground/70">
-            <li>Paint & Coatings</li>
-            <li>Paper Manufacturing</li>
-            <li>Plastics & PVC</li>
-            <li>Pharma & Cosmetics</li>
-            <li>Construction</li>
+          <h4 className="font-heading font-semibold mb-4 text-accent">Resources</h4>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <Link to="/calcium-carbonate-manufacturer-india" className="text-primary-foreground/70 hover:text-accent transition-colors">
+                CaCO₃ Manufacturer India
+              </Link>
+            </li>
+            <li>
+              <Link to="/gcc-supplier-india" className="text-primary-foreground/70 hover:text-accent transition-colors">
+                GCC Supplier India
+              </Link>
+            </li>
+            <li>
+              <Link to="/marble-powder-for-paint-industry" className="text-primary-foreground/70 hover:text-accent transition-colors">
+                Marble Powder for Paint
+              </Link>
+            </li>
+            <li>
+              <Link to="/caco3-for-paper-industry" className="text-primary-foreground/70 hover:text-accent transition-colors">
+                CaCO₃ for Paper Industry
+              </Link>
+            </li>
+            <li>
+              <Link to="/pcc-vs-gcc-difference" className="text-primary-foreground/70 hover:text-accent transition-colors">
+                PCC vs GCC Difference
+              </Link>
+            </li>
           </ul>
         </div>
 
