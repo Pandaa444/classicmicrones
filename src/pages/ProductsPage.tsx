@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Download, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/SectionHeading";
+import PageSEO from "@/components/PageSEO";
 import productImg from "@/assets/product-powder.jpg";
 
 const specs = [
