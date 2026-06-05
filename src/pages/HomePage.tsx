@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Shield, Award, Truck, Factory, Paintbrush, FileText, FlaskConical, Package, CheckCircle, Phone, ArrowRight, Star } from "lucide-react";
+import PageSEO from "@/components/PageSEO";
 import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/SectionHeading";
 import heroImg from "@/assets/hero-factory.jpg";
