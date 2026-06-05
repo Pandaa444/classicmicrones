@@ -79,7 +79,11 @@ const Footer = () => (
             </li>
             <li className="flex items-center gap-3 text-primary-foreground/60">
               <Mail className="w-4 h-4 shrink-0 text-accent" />
-              <a href="mailto:cmminchem@gmail.com" className="hover:text-accent transition-colors">cmminchem@gmail.com</a>
+              <a href="mailto:sales@classicmicrones.com" className="hover:text-accent transition-colors">sales@classicmicrones.com</a>
+            </li>
+            <li className="flex items-center gap-3 text-primary-foreground/60">
+              <Mail className="w-4 h-4 shrink-0 text-accent" />
+              <a href="mailto:purchase@classicmicrones.com" className="hover:text-accent transition-colors">purchase@classicmicrones.com</a>
             </li>
           </ul>
         </div>
