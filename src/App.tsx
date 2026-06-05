@@ -16,6 +16,12 @@ import GccSupplierPage from "@/pages/GccSupplierPage";
 import MarblePowderPaintPage from "@/pages/MarblePowderPaintPage";
 import CaCO3PaperPage from "@/pages/CaCO3PaperPage";
 import PccVsGccPage from "@/pages/PccVsGccPage";
+import PaintIndustryPage from "@/pages/PaintIndustryPage";
+import PaperIndustryPage from "@/pages/PaperIndustryPage";
+import PlasticIndustryPage from "@/pages/PlasticIndustryPage";
+import PvcIndustryPage from "@/pages/PvcIndustryPage";
+import PharmaIndustryPage from "@/pages/PharmaIndustryPage";
+import RubberIndustryPage from "@/pages/RubberIndustryPage";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
