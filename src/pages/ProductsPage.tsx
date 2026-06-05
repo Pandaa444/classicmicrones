@@ -43,6 +43,20 @@ const grades = [
 
 const ProductsPage = () => (
   <div>
+    <PageSEO
+      title="Calcium Carbonate Powder — Grades, Mesh & TDS | Classic Micrones"
+      description="Calcium Carbonate (CaCO₃) powder in 200 to 2500 mesh, 95–98% purity, coated and uncoated grades. Standard, premium and ultra-fine grades with full technical data and packaging options."
+      path="/products"
+      jsonLd={{
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: "Calcium Carbonate Powder (GCC)",
+        description: "Ground Calcium Carbonate powder in 200 to 2500 mesh with 95–98% purity. Coated and uncoated grades for paint, paper, plastic, PVC, pharma and rubber industries.",
+        brand: { "@type": "Brand", name: "Classic Micrones" },
+        manufacturer: { "@type": "Organization", name: "Classic Micrones" },
+        category: "Industrial Minerals",
+      }}
+    />
     <section className="bg-primary text-primary-foreground section-padding">
       <div className="container mx-auto text-center">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
