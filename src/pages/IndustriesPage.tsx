@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Paintbrush, FileText, Package, FlaskConical, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import PageSEO from "@/components/PageSEO";
 
 const industries = [
   {
@@ -60,6 +61,11 @@ const industries = [
 
 const IndustriesPage = () => (
   <div>
+    <PageSEO
+      title="Industries We Serve | Calcium Carbonate Applications — Classic Micrones"
+      description="Calcium Carbonate (CaCO₃) for paint, paper, plastic, PVC, pharma and rubber industries. Industry-specific grades, dedicated technical support and bulk supply across India."
+      path="/industries"
+    />
     <section className="bg-primary text-primary-foreground section-padding">
       <div className="container mx-auto text-center">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>

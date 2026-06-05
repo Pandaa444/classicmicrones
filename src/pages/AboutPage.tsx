@@ -3,10 +3,16 @@ import { Target, Eye, Award, Shield, Users, Factory } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/SectionHeading";
+import PageSEO from "@/components/PageSEO";
 import warehouseImg from "@/assets/warehouse.jpg";
 
 const AboutPage = () => (
   <div>
+    <PageSEO
+      title="About Classic Micrones | Calcium Carbonate Manufacturer in Makrana, Rajasthan"
+      description="Classic Micrones is a Makrana-based Calcium Carbonate manufacturer with its own marble mines, modern micronising plant and pan-India supply network. Learn about our story, capability and quality commitment."
+      path="/about"
+    />
     {/* Hero */}
     <section className="bg-primary text-primary-foreground section-padding">
       <div className="container mx-auto text-center">

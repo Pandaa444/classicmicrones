@@ -16,6 +16,12 @@ import GccSupplierPage from "@/pages/GccSupplierPage";
 import MarblePowderPaintPage from "@/pages/MarblePowderPaintPage";
 import CaCO3PaperPage from "@/pages/CaCO3PaperPage";
 import PccVsGccPage from "@/pages/PccVsGccPage";
+import PaintIndustryPage from "@/pages/PaintIndustryPage";
+import PaperIndustryPage from "@/pages/PaperIndustryPage";
+import PlasticIndustryPage from "@/pages/PlasticIndustryPage";
+import PvcIndustryPage from "@/pages/PvcIndustryPage";
+import PharmaIndustryPage from "@/pages/PharmaIndustryPage";
+import RubberIndustryPage from "@/pages/RubberIndustryPage";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -40,6 +46,12 @@ const App = () => (
               <Route path="/marble-powder-for-paint-industry" element={<MarblePowderPaintPage />} />
               <Route path="/caco3-for-paper-industry" element={<CaCO3PaperPage />} />
               <Route path="/pcc-vs-gcc-difference" element={<PccVsGccPage />} />
+              <Route path="/calcium-carbonate-for-paint-industry" element={<PaintIndustryPage />} />
+              <Route path="/calcium-carbonate-for-paper-industry" element={<PaperIndustryPage />} />
+              <Route path="/calcium-carbonate-for-plastic-industry" element={<PlasticIndustryPage />} />
+              <Route path="/calcium-carbonate-for-pvc-industry" element={<PvcIndustryPage />} />
+              <Route path="/calcium-carbonate-for-pharma-industry" element={<PharmaIndustryPage />} />
+              <Route path="/calcium-carbonate-for-rubber-industry" element={<RubberIndustryPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Layout>

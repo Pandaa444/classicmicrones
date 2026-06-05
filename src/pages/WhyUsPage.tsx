@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Shield, Award, Truck, Factory, Settings, HeartHandshake, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/SectionHeading";
+import PageSEO from "@/components/PageSEO";
 
 const reasons = [
   {
@@ -45,6 +46,11 @@ const reasons = [
 
 const WhyUsPage = () => (
   <div>
+    <PageSEO
+      title="Why Choose Classic Micrones | Calcium Carbonate Manufacturer Advantage"
+      description="Own mines in Makrana, modern micronising plant, 98% purity, consistent batch quality, pan-India delivery and competitive pricing — six reasons leading manufacturers choose Classic Micrones for Calcium Carbonate supply."
+      path="/why-us"
+    />
     <section className="bg-primary text-primary-foreground section-padding">
       <div className="container mx-auto text-center">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>

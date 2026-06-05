@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Shield, Award, Truck, Factory, Paintbrush, FileText, FlaskConical, Package, CheckCircle, Phone, ArrowRight, Star } from "lucide-react";
+import PageSEO from "@/components/PageSEO";
 import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/SectionHeading";
 import heroImg from "@/assets/hero-factory.jpg";
@@ -41,6 +42,18 @@ const ease = [0.25, 0.1, 0.25, 1] as const;
 
 const HomePage = () => (
   <div>
+    <PageSEO
+      title="Classic Micrones — Calcium Carbonate Manufacturer & Supplier India"
+      description="Leading manufacturer of high-purity Ground Calcium Carbonate (GCC) and micronised marble powder for paint, paper, plastic, PVC, pharma and rubber industries. Up to 98% purity, bulk supply across India."
+      path="/"
+      jsonLd={{
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: "Classic Micrones",
+        url: "https://classicmicrones.lovable.app",
+        publisher: { "@type": "Organization", name: "Classic Micrones" },
+      }}
+    />
     {/* Hero */}
     <section className="relative min-h-[92vh] flex items-center overflow-hidden">
       <div className="absolute inset-0">

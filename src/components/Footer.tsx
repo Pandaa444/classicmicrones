@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 const Footer = () => (
   <footer className="bg-primary text-primary-foreground">
     <div className="container mx-auto px-4 py-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
         <div>
           <h3 className="text-xl font-heading font-extrabold mb-5">Classic Micrones</h3>
           <p className="text-primary-foreground/60 text-sm leading-relaxed">
@@ -32,33 +32,33 @@ const Footer = () => (
         </div>
 
         <div>
+          <h4 className="font-heading font-semibold mb-5 text-accent text-sm tracking-wide uppercase">Industries</h4>
+          <ul className="space-y-3 text-sm">
+            {[
+              { label: "CaCO₃ for Paint Industry", path: "/calcium-carbonate-for-paint-industry" },
+              { label: "CaCO₃ for Paper Industry", path: "/calcium-carbonate-for-paper-industry" },
+              { label: "CaCO₃ for Plastic Industry", path: "/calcium-carbonate-for-plastic-industry" },
+              { label: "CaCO₃ for PVC Industry", path: "/calcium-carbonate-for-pvc-industry" },
+              { label: "CaCO₃ for Pharma Industry", path: "/calcium-carbonate-for-pharma-industry" },
+              { label: "CaCO₃ for Rubber Industry", path: "/calcium-carbonate-for-rubber-industry" },
+            ].map((link) => (
+              <li key={link.path}>
+                <Link to={link.path} className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
           <h4 className="font-heading font-semibold mb-5 text-accent text-sm tracking-wide uppercase">Resources</h4>
           <ul className="space-y-3 text-sm">
-            <li>
-              <Link to="/calcium-carbonate-manufacturer-india" className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">
-                CaCO₃ Manufacturer India
-              </Link>
-            </li>
-            <li>
-              <Link to="/gcc-supplier-india" className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">
-                GCC Supplier India
-              </Link>
-            </li>
-            <li>
-              <Link to="/marble-powder-for-paint-industry" className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">
-                Marble Powder for Paint
-              </Link>
-            </li>
-            <li>
-              <Link to="/caco3-for-paper-industry" className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">
-                CaCO₃ for Paper Industry
-              </Link>
-            </li>
-            <li>
-              <Link to="/pcc-vs-gcc-difference" className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">
-                PCC vs GCC Difference
-              </Link>
-            </li>
+            <li><Link to="/calcium-carbonate-manufacturer-india" className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">CaCO₃ Manufacturer India</Link></li>
+            <li><Link to="/gcc-supplier-india" className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">GCC Supplier India</Link></li>
+            <li><Link to="/marble-powder-for-paint-industry" className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">Marble Powder for Paint</Link></li>
+            <li><Link to="/caco3-for-paper-industry" className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">CaCO₃ for Paper (Filler)</Link></li>
+            <li><Link to="/pcc-vs-gcc-difference" className="text-primary-foreground/60 hover:text-accent transition-colors duration-200">PCC vs GCC Difference</Link></li>
           </ul>
         </div>
 
