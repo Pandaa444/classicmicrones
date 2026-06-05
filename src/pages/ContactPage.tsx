@@ -29,6 +29,28 @@ const ContactPage = () => {
 
   return (
     <div>
+      <PageSEO
+        title="Contact Classic Micrones | Calcium Carbonate Sales, Quote & Vendor Registration"
+        description="Contact Classic Micrones for Calcium Carbonate quotes, technical data sheets, vendor registration and bulk supply enquiries. Sales, purchase, accounts and management contacts."
+        path="/contact"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "Classic Micrones",
+          url: "https://classicmicrones.lovable.app/contact",
+          telephone: "+918529067010",
+          email: "sales@classicmicrones.com",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "E-6 RIICO Industrial Area, Bidiyad",
+            addressLocality: "Makrana",
+            addressRegion: "Rajasthan",
+            postalCode: "341505",
+            addressCountry: "IN",
+          },
+          areaServed: ["IN"],
+        }}
+      />
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container mx-auto text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
