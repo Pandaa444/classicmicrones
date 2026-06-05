@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Paintbrush, FileText, Package, FlaskConical, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import PageSEO from "@/components/PageSEO";
 
 const industries = [
   {
