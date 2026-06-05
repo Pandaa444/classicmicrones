@@ -131,9 +131,24 @@ const ContactPage = () => {
 
               <div className="bg-surface rounded-lg p-5 flex items-start gap-4">
                 <Mail className="w-6 h-6 text-accent mt-1 shrink-0" />
-                <div>
-                  <div className="font-heading font-semibold text-primary text-sm">Email</div>
-                  <a href="mailto:cmminchem@gmail.com" className="text-muted-foreground text-sm hover:text-accent transition-colors">cmminchem@gmail.com</a>
+                <div className="space-y-1.5">
+                  <div className="font-heading font-semibold text-primary text-sm">Email by Department</div>
+                  <div className="text-sm">
+                    <div className="text-xs text-muted-foreground uppercase tracking-wide">Sales & Enquiries</div>
+                    <a href="mailto:sales@classicmicrones.com" className="text-muted-foreground hover:text-accent transition-colors">sales@classicmicrones.com</a>
+                  </div>
+                  <div className="text-sm">
+                    <div className="text-xs text-muted-foreground uppercase tracking-wide">Purchase & Vendors</div>
+                    <a href="mailto:purchase@classicmicrones.com" className="text-muted-foreground hover:text-accent transition-colors">purchase@classicmicrones.com</a>
+                  </div>
+                  <div className="text-sm">
+                    <div className="text-xs text-muted-foreground uppercase tracking-wide">Accounts & Billing</div>
+                    <a href="mailto:accounts@classicmicrones.com" className="text-muted-foreground hover:text-accent transition-colors">accounts@classicmicrones.com</a>
+                  </div>
+                  <div className="text-sm">
+                    <div className="text-xs text-muted-foreground uppercase tracking-wide">Management (Divesh Kuri)</div>
+                    <a href="mailto:divesh@classicmicrones.com" className="text-muted-foreground hover:text-accent transition-colors">divesh@classicmicrones.com</a>
+                  </div>
                 </div>
               </div>
 
