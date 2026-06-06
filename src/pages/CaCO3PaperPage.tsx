@@ -34,9 +34,9 @@ const specs = [
 const CaCO3PaperPage = () => (
   <>
     <Helmet>
-      <title>Calcium Carbonate for Paper Industry | CaCO₃ Filler – Classic Micrones</title>
-      <meta name="description" content="High-purity calcium carbonate (CaCO₃) for paper industry. Improves brightness, smoothness, and opacity. Classic Micrones – reliable supplier for paper mills in India." />
-      <link rel="canonical" href="https://classicmicrones.com/caco3-for-paper-industry" />
+      <title>Calcium Carbonate for Paper Industry | Classic Micrones</title>
+      <meta name="description" content="High-purity CaCO₃ filler for paper mills in India. Improves brightness, smoothness and opacity. Reliable bulk supply across the country." />
+      <link rel="canonical" href="https://classicmicrones.lovable.app/caco3-for-paper-industry" />
     </Helmet>
 
     {/* Hero */}

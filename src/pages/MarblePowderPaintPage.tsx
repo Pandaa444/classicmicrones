@@ -38,9 +38,9 @@ const paintApps = [
 const MarblePowderPaintPage = () => (
   <>
     <Helmet>
-      <title>Marble Powder for Paint Industry | CaCO₃ Filler – Classic Micrones</title>
-      <meta name="description" content="High-purity marble powder (CaCO₃) for paint industry. Improve whiteness, opacity, and reduce costs. Classic Micrones – trusted supplier for paint manufacturers in India." />
-      <link rel="canonical" href="https://classicmicrones.com/marble-powder-for-paint-industry" />
+      <title>Marble Powder for Paint Industry | Classic Micrones</title>
+      <meta name="description" content="High-purity marble powder (CaCO₃) for paint manufacturers in India. Improves whiteness and opacity, lowers cost. Bulk supply pan-India." />
+      <link rel="canonical" href="https://classicmicrones.lovable.app/marble-powder-for-paint-industry" />
     </Helmet>
 
     {/* Hero */}

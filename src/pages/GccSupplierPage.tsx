@@ -62,9 +62,9 @@ const advantages = [
 const GccSupplierPage = () => (
   <>
     <Helmet>
-      <title>GCC Supplier India | Ground Calcium Carbonate – Classic Micrones</title>
-      <meta name="description" content="Classic Micrones is a trusted GCC supplier in India. We provide high-purity Ground Calcium Carbonate powder for paint, plastic, paper, and pharma industries. Bulk supply available." />
-      <link rel="canonical" href="https://classicmicrones.com/gcc-supplier-india" />
+      <title>GCC Supplier India | Ground Calcium Carbonate Powder</title>
+      <meta name="description" content="Trusted GCC supplier in India. High-purity Ground Calcium Carbonate powder for paint, plastic, paper and pharma industries. Bulk supply available." />
+      <link rel="canonical" href="https://classicmicrones.lovable.app/gcc-supplier-india" />
     </Helmet>
 
     {/* Hero */}
