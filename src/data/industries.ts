@@ -265,9 +265,9 @@ export const industries: Record<string, IndustryData> = {
 
   pharma: {
     slug: "calcium-carbonate-for-pharma-industry",
-    metaTitle: "Calcium Carbonate for Pharma Industry | High-Purity CaCO₃ Excipient — Classic Micrones",
+    metaTitle: "Calcium Carbonate for Pharma Industry | Classic Micrones",
     metaDescription:
-      "High-purity Calcium Carbonate powder for pharma, nutraceutical and cosmetic applications. Ultra-fine micronised grades with low heavy-metal content and consistent specifications for regulatory use.",
+      "High-purity CaCO₃ for pharma, nutraceutical and cosmetic use. Ultra-fine micronised grades with low heavy-metal content and consistent specs.",
     eyebrow: "Pharma & Cosmetics",
     h1: "Calcium Carbonate for the Pharma & Cosmetic Industry",
     intro:
@@ -320,9 +320,9 @@ export const industries: Record<string, IndustryData> = {
 
   rubber: {
     slug: "calcium-carbonate-for-rubber-industry",
-    metaTitle: "Calcium Carbonate for Rubber Industry | CaCO₃ Filler for Rubber Compounds — Classic Micrones",
+    metaTitle: "Calcium Carbonate for Rubber Industry | Classic Micrones",
     metaDescription:
-      "Coated and uncoated Calcium Carbonate for natural and synthetic rubber compounds. Filler-grade CaCO₃ for footwear, hoses, conveyor belts, automotive parts and general rubber goods.",
+      "Coated and uncoated CaCO₃ filler for natural and synthetic rubber — footwear, hoses, conveyor belts, automotive parts and general rubber goods.",
     eyebrow: "Rubber Industry",
     h1: "Calcium Carbonate for the Rubber Industry",
     intro:
