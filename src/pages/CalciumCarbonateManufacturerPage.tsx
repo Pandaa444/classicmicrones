@@ -39,9 +39,9 @@ const whyUs = [
 const CalciumCarbonateManufacturerPage = () => (
   <>
     <Helmet>
-      <title>Calcium Carbonate Manufacturer in India | Classic Micrones – 98% Purity CaCO₃</title>
-      <meta name="description" content="Classic Micrones is a leading calcium carbonate manufacturer in India. We supply high-purity CaCO₃ powder (up to 98%) for paint, paper, plastic, and pharma industries. Get a quote today." />
-      <link rel="canonical" href="https://classicmicrones.com/calcium-carbonate-manufacturer-india" />
+      <title>Calcium Carbonate Manufacturer India | Classic Micrones</title>
+      <meta name="description" content="Leading calcium carbonate manufacturer in India. High-purity CaCO₃ powder (up to 98%) for paint, paper, plastic and pharma industries. Get a quote." />
+      <link rel="canonical" href="https://classicmicrones.lovable.app/calcium-carbonate-manufacturer-india" />
     </Helmet>
 
     {/* Hero */}

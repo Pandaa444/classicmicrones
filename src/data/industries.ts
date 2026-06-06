@@ -38,9 +38,9 @@ const standardSpecs = [
 export const industries: Record<string, IndustryData> = {
   paint: {
     slug: "calcium-carbonate-for-paint-industry",
-    metaTitle: "Calcium Carbonate for Paint Industry | CaCO₃ for Paints & Coatings — Classic Micrones",
+    metaTitle: "Calcium Carbonate for Paint Industry | Classic Micrones",
     metaDescription:
-      "High-whiteness, low-oil-absorption Calcium Carbonate powder for paint and coatings manufacturers in India. Coated and uncoated GCC grades for emulsion, primer, putty, distemper and industrial coatings.",
+      "High-whiteness, low-oil-absorption CaCO₃ for paint and coatings manufacturers in India. Coated and uncoated GCC grades for emulsion and primer.",
     eyebrow: "Paint & Coatings",
     h1: "Calcium Carbonate for the Paint Industry",
     intro:
@@ -99,9 +99,9 @@ export const industries: Record<string, IndustryData> = {
 
   paper: {
     slug: "calcium-carbonate-for-paper-industry",
-    metaTitle: "Calcium Carbonate for Paper Industry | Filler & Coating CaCO₃ — Classic Micrones",
+    metaTitle: "Calcium Carbonate for Paper Industry | Classic Micrones",
     metaDescription:
-      "GCC for paper mills in India — high-brightness filler and coating-grade Calcium Carbonate for writing, printing, packaging and tissue paper. Bulk supply, consistent specs, pan-India delivery.",
+      "GCC filler and coating-grade Calcium Carbonate for writing, printing, packaging and tissue paper mills in India. Bulk supply, consistent specs.",
     eyebrow: "Paper Industry",
     h1: "Calcium Carbonate for the Paper Industry",
     intro:
@@ -154,9 +154,9 @@ export const industries: Record<string, IndustryData> = {
 
   plastic: {
     slug: "calcium-carbonate-for-plastic-industry",
-    metaTitle: "Calcium Carbonate for Plastic Industry | CaCO₃ Filler for PE, PP, Masterbatch — Classic Micrones",
+    metaTitle: "Calcium Carbonate for Plastic Industry | Classic Micrones",
     metaDescription:
-      "Coated and uncoated Calcium Carbonate for the plastic industry — filler for HDPE, LDPE, PP, masterbatch and filler compounds. Improves stiffness, impact and cost across film, blow and injection moulding.",
+      "Coated and uncoated CaCO₃ filler for HDPE, LDPE, PP, masterbatch and filler compounds. Improves stiffness, impact and cost in plastics.",
     eyebrow: "Plastics",
     h1: "Calcium Carbonate for the Plastic Industry",
     intro:
@@ -210,9 +210,9 @@ export const industries: Record<string, IndustryData> = {
 
   pvc: {
     slug: "calcium-carbonate-for-pvc-industry",
-    metaTitle: "Calcium Carbonate for PVC Industry | CaCO₃ for Pipes, Profiles & Cables — Classic Micrones",
+    metaTitle: "Calcium Carbonate for PVC Industry | Classic Micrones",
     metaDescription:
-      "Coated and uncoated Calcium Carbonate for PVC pipes, profiles, fittings and wire & cable compounds. High whiteness, low moisture and consistent particle size for stable PVC processing.",
+      "Coated and uncoated CaCO₃ for PVC pipes, profiles, fittings and wire & cable compounds. High whiteness, low moisture, consistent particle size.",
     eyebrow: "PVC Industry",
     h1: "Calcium Carbonate for the PVC Industry",
     intro:
@@ -265,9 +265,9 @@ export const industries: Record<string, IndustryData> = {
 
   pharma: {
     slug: "calcium-carbonate-for-pharma-industry",
-    metaTitle: "Calcium Carbonate for Pharma Industry | High-Purity CaCO₃ Excipient — Classic Micrones",
+    metaTitle: "Calcium Carbonate for Pharma Industry | Classic Micrones",
     metaDescription:
-      "High-purity Calcium Carbonate powder for pharma, nutraceutical and cosmetic applications. Ultra-fine micronised grades with low heavy-metal content and consistent specifications for regulatory use.",
+      "High-purity CaCO₃ for pharma, nutraceutical and cosmetic use. Ultra-fine micronised grades with low heavy-metal content and consistent specs.",
     eyebrow: "Pharma & Cosmetics",
     h1: "Calcium Carbonate for the Pharma & Cosmetic Industry",
     intro:
@@ -320,9 +320,9 @@ export const industries: Record<string, IndustryData> = {
 
   rubber: {
     slug: "calcium-carbonate-for-rubber-industry",
-    metaTitle: "Calcium Carbonate for Rubber Industry | CaCO₃ Filler for Rubber Compounds — Classic Micrones",
+    metaTitle: "Calcium Carbonate for Rubber Industry | Classic Micrones",
     metaDescription:
-      "Coated and uncoated Calcium Carbonate for natural and synthetic rubber compounds. Filler-grade CaCO₃ for footwear, hoses, conveyor belts, automotive parts and general rubber goods.",
+      "Coated and uncoated CaCO₃ filler for natural and synthetic rubber — footwear, hoses, conveyor belts, automotive parts and general rubber goods.",
     eyebrow: "Rubber Industry",
     h1: "Calcium Carbonate for the Rubber Industry",
     intro:

@@ -34,9 +34,9 @@ const gccAdvantages = [
 const PccVsGccPage = () => (
   <>
     <Helmet>
-      <title>PCC vs GCC Difference | Precipitated vs Ground Calcium Carbonate – Classic Micrones</title>
-      <meta name="description" content="Understand the difference between PCC and GCC (Precipitated vs Ground Calcium Carbonate). Compare properties, cost, and applications. Classic Micrones – trusted GCC supplier in India." />
-      <link rel="canonical" href="https://classicmicrones.com/pcc-vs-gcc-difference" />
+      <title>PCC vs GCC: Key Differences Explained | Classic Micrones</title>
+      <meta name="description" content="Compare Precipitated (PCC) vs Ground (GCC) Calcium Carbonate — properties, cost and applications. Guidance from a trusted Indian GCC supplier." />
+      <link rel="canonical" href="https://classicmicrones.lovable.app/pcc-vs-gcc-difference" />
     </Helmet>
 
     {/* Hero */}
